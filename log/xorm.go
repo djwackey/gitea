@@ -7,7 +7,7 @@ package log
 import (
 	"fmt"
 
-	"github.com/go-xorm/core"
+	"xorm.io/core"
 )
 
 // XORMLogBridge a logger bridge from Logger to xorm
