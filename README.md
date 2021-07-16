@@ -1,5 +1,5 @@
 # gitea
-it's forked gitea, only contains log module
+it's forked from gitea, only contains log module
 
 ## How to use?
 ```
@@ -28,4 +28,5 @@ func main() {
     log.NewLogger(0, mode, config)
 
     log.Info("Hello World")
+    log.Close()
 }
